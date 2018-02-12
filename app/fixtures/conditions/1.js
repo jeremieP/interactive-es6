@@ -1,5 +1,9 @@
-if (true) {
-  var a = 2;
-}
+let result
+const consoles = ['Nintendo', 'Sony']
 
-assertEqual(a, 1);
+// Créez vos conditions
+
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(result, 1);

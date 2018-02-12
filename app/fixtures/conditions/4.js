@@ -1,8 +1,9 @@
-const x = {};
+let result
+const console = { marque: 'Microsoft', model: 'wii'}
 
-// this would error!
-// x = {}
+// Créez vos conditions
 
-x.a = 3;
 
-assertEqual(x.a, 3);
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(result, 3);

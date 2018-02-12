@@ -1,4 +1,8 @@
-const x = 4;
+let result
+const consoles = ['Sega', 'Sony', 'Microsoft', 'Nintendo']
 
-// oh dear...
-x = 5;
+// Créez vos conditions
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(result, 4);
