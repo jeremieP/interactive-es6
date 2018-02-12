@@ -1,5 +1,8 @@
-function willError() {
-  return Promise.reject('whoops!').catch(() => 'Hello');
-}
+let result = ''
 
-assertResolvesTo(willError(), 'Hey');
+// Créez votre boucle
+
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(result, '0,2,4,6,8,10,12,14,16,18,20,');

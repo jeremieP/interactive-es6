@@ -1,13 +1,9 @@
-const makePromise = () => {
-  return Promise.resolve(2);
-}
+const names = ['Hafida', 'Rose', 'Marjorie', 'Margaux', 'Céline']
+let result = ''
 
-const promiseChain = () => {
-  return makePromise()
-    // don't be put off by the arrow functions here!
-    .then((x) => x + 1)
-    .then((x) => x + 1)
-    .then((x) => x + 1);
-}
+// Créez votre boucle
 
-assertResolvesTo(promiseChain(), 6);
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(result, 'Hafida;Rose;Marjorie;Margaux;Céline;');

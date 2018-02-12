@@ -1,16 +1,8 @@
-// don't concern yourself with how this function works
-// just know that it returns a promise
-function getGithubRepos(name) {
-  return fetch(`https://api.github.com/users/${name}/repos`).then((response) => {
-    return response.json();
-  });
+let result = ''
+// Créez votre boucle
 
-}
-function githubUsername(name) {
-  return getGithubRepos(name).then((data) => {
-    return data[0].owner.login;
-  });
-}
 
-assertResolvesTo(githubUsername('jackfranklin'), 'jackfranklin');
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(result, '0,2,4,6,8,10,12,14,16,18,20,');
 

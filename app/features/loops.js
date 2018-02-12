@@ -2,47 +2,30 @@ import React from 'react';
 export default [
   {
     index: 1,
-    title: 'Object destructuring is really succinct',
+    title: 'Boucle for',
     content: (
       <div>
-        <p>If you want to pull a couple of properties of an object, you can use the object destructuring syntax.</p>
+        <p>En bouclant de 0 à 20, ajoutez à la variable <code>result</code> tous les nombres pairs, séparés par une virgule</p>
       </div>
     )
   },
   {
     index: 2,
-    title: 'If a value doesn\'t exist, it is set to undefined',
+    title: 'Boucle while',
     content: (
       <div>
-        <p>If you try to destructure a value that doesn't exist, it is set to undefined</p>
+      <p>En bouclant de 0 à 20, ajoutez à la variable <code>result</code> tous les nombres pairs, séparés par une virgule</p>
       </div>
     ),
   },
   {
     index: 3,
-    title: 'We can set a value to be used if there isn\'t one defined',
+    title: 'Boucle forEach',
     content: (
       <div>
-        <p>You can set a default value too if the value doesn't exist</p>
+        <p>Ajoutez à la variable <code>result</code>, tous les prénoms du tableau <code>names</code> fourni, séparés par un point virgule (<code>;</code>)
+        </p>
       </div>
     )
   },
-  {
-    index: 4,
-    title: 'You can destructure inside function arguments',
-    content: (
-      <div>
-        <p>This code passes the test, but how could you rewrite it to be more succinct?</p>
-      </div>
-    )
-  },
-  {
-    index: 5,
-    title: 'We can also destructure arrays',
-    content: (
-      <div>
-        <p>By swapping the curly braces for square ones, we can pull values out of arrays.</p>
-      </div>
-    )
-  }
 ]
