@@ -2,19 +2,19 @@ import React from 'react';
 export default [
   {
     index: 1,
-    title: 'String concatenation is so dull',
+    title: 'La concaténation est relou un peu non ?',
     content: (
       <div>
-        <p>If we want to output a variable in a string we use <code>+</code>.</p>
+        <p>La vieille méthode : utilise le <code>+</code>.</p>
       </div>
     )
   },
   {
     index: 2,
-    title: 'Template strings to the rescue!',
+    title: 'Les Templates strings sont là pour ça !',
     content: (
       <div>
-        <p>We use the new backticks syntax to create strings where we can <em>interpolate</em> values into a string.</p>
+        <p>On peut dorénavant utiliser les backticks <code>`</code>, qui vont permettre d'interprêter directement du code JavaScript.</p>
       </div>
     )
   }
