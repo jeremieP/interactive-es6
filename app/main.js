@@ -11,17 +11,18 @@ import { render } from 'react-dom';
 import React from 'react';
 import { Router, Route, Link } from 'react-router';
 
+import Username from './components/username';
+
 import Index from './components/index';
 
-import Scopes from './components/scopes';
-import Destructuring from './components/destructuring';
-import Classes from './components/classes';
+import Interactions from './components/interactions';
+import Types from './components/types';
+import Loops from './components/loops';
+import Conditions from './components/conditions';
 import Functions from './components/functions';
-import Arrows from './components/arrows';
-import Promises from './components/promises';
+import Classes from './components/classes';
 import TemplateStrings from './components/template-strings';
 
-import Username from './components/username';
 import Dashboard from './components/dashboard';
 
 import Finished from './components/finished';
@@ -45,9 +46,9 @@ class App extends React.Component {
       return null;
     }
 
-    return ['scopes', 'destructuring',
-      'classes', 'functions',
-      'arrows', 'template-strings', 'promises'].map((feat) => {
+    return ['Interactions', 'Types',
+      'Loops', 'Conditions',
+      'Functions', 'Classes', 'template-strings'].map((feat) => {
         return <li key={feat}><Link to={`/${feat}`}>{titleCase(feat)}</Link></li>;
       });
   }
@@ -105,13 +106,14 @@ class ForceReRender extends React.Component {
         <Route path="" component={App}>
           <Route path="/" component={Index}></Route>
           <Route path="/_dashboard" component={Dashboard}></Route>
-          <Route path="/scopes" component={Scopes}></Route>
-          <Route path="/destructuring" component={Destructuring}></Route>
-          <Route path="/classes" component={Classes}></Route>
+
+          <Route path="/interactions" component={Interactions}></Route>
+          <Route path="/types" component={Types}></Route>
+          <Route path="/loops" component={Loops}></Route>
+          <Route path="/conditions" component={Conditions}></Route>
           <Route path="/functions" component={Functions}></Route>
-          <Route path="/arrows" component={Arrows}></Route>
+          <Route path="/classes" component={Classes}></Route>
           <Route path="/template-strings" component={TemplateStrings}></Route>
-          <Route path="/promises" component={Promises}></Route>
           <Route path="/finished" component={Finished}></Route>
         </Route>
       </Router>
