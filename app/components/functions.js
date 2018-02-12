@@ -11,7 +11,7 @@ export default class Functions extends React.Component {
         <Feature feature="functions" />
 
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/arrows">Regular functions are dull, ready for some arrow functions?!</Link>
+        <Link className="btn btn-primary btn-lg btn-block" to= "/classes">Et si, on abordait les classes ?</Link>
         </div>
       </div>
     );

@@ -12,7 +12,7 @@ import { subscribeToHelp, subscribeToActivity } from '../challenge-channels';
 
 import { getChallenge, saveChallenge } from '../challenge-store';
 
-const INITIAL_SOURCE = 'Loading...';
+const INITIAL_SOURCE = 'Chargement...';
 
 export default class Challenge extends React.Component {
   constructor(props) {
@@ -139,17 +139,17 @@ export default class Challenge extends React.Component {
             className="btn btn-default btn-primary"
             type="submit"
             disabled={!this.state.src && !this.state.results}
-            onClick={(e) => this.evaluateCode(e) }>Evaluate</button>
+            onClick={(e) => this.evaluateCode(e) }>Vérifier</button>
         </div>
         <div className="col-md-6">
-          { !this.props.results && <p>Evaluate the code to see the results</p> }
+          { !this.props.results && <p>Vérifier pour voir le résultat</p> }
           { this.renderError() }
           { !this.state.codeError && <CodeResults results={this.state.evalResults} />}
 
           <button
             disabled={this.state.evaluationLogResults.length < 1}
             className="btn btn-warning pull-right"
-            onClick={(e) => this.handleHelp(e)}>I would like some help please :)</button>
+            onClick={(e) => this.handleHelp(e)}>Hey, j'ai besoin d'aide !</button>
         </div>
       </div>
     );

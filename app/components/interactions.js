@@ -11,7 +11,7 @@ export default class Interactions extends React.Component {
         <Feature feature="interactions" />
 
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/template-strings">Let's talk strings...</Link>
+          <Link className="btn btn-primary btn-lg btn-block" to= "/types">Passons aux exercices sur les types...</Link>
         </div>
       </div>
     );

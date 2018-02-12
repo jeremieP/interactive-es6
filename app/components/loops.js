@@ -10,7 +10,7 @@ export default class Loops extends React.Component {
         <Feature feature="loops" />
 
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/classes">Feeling keen? Up next it's classes...</Link>
+          <Link className="btn btn-primary btn-lg btn-block" to= "/conditions">Soumettons le code à conditions...</Link>
         </div>
       </div>
     );

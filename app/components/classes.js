@@ -11,7 +11,7 @@ export default class Classes extends React.Component {
         <Feature feature="classes" />
 
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/functions">Time for some functions...</Link>
+          <Link className="btn btn-primary btn-lg btn-block" to= "/template-strings">Et la partie BONUS...</Link>
         </div>
       </div>
     );

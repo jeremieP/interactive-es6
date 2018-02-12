@@ -10,7 +10,7 @@ export default class TemplateStrings extends React.Component {
       <div className="challenge row">
         <Feature feature="template-strings" />
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/promises">Ready to move on? I <em>promise</em> it's nearly over...</Link>
+        <Link className="btn btn-primary btn-lg btn-block" to= "/finished">Voir la suite...</Link>
         </div>
       </div>
     );

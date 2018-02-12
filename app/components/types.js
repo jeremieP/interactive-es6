@@ -10,7 +10,7 @@ export default class Types extends React.Component {
       <div className="challenge row">
         <Feature feature="types" />
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/destructuring">Ready to move on? Let's talk destructuring...</Link>
+          <Link className="btn btn-primary btn-lg btn-block" to= "/destructuring">Ensuite, on va faire des boucles...</Link>
         </div>
       </div>
     );

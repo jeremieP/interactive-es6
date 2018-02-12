@@ -11,7 +11,7 @@ export default class Conditions extends React.Component {
         <Feature feature="conditions" />
 
         <div className="col-md-12">
-          <Link className="btn btn-primary btn-lg btn-block" to= "/finished">Done!</Link>
+          <Link className="btn btn-primary btn-lg btn-block" to= "/functions">Créons des fonctions...</Link>
         </div>
       </div>
     );
