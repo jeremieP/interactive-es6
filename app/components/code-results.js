@@ -3,7 +3,7 @@ import React from 'react';
 const ASSERTION_ERROR_MAPS = {
   'equal': (x, y) => {
     return (
-      <span>Expected {valueOrUndefined(x)} to equal {valueOrUndefined(y)}</span>
+      <span>On attend que {valueOrUndefined(x)} soit égal à {valueOrUndefined(y)}</span>
     )
   },
   'resolvesTo': (_, y) => {
@@ -31,7 +31,7 @@ export default class CodeResults extends React.Component {
       <li key={JSON.stringify(result)} className={cssClass}>
         { resultToString(result) }
         <span className="badge">
-          { result.passed === true ? 'Success! ' : 'Failure! ' }
+          { result.passed === true ? 'Validé ! ' : 'Grr, echec ! ' }
         </span>
       </li>
     )

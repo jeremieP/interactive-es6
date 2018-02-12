@@ -1,7 +1,11 @@
-let myObj = {
-  y: 1
-}
+const message = 'Bienvenue '
+const message2 = 'Quel est votre prénom ?'
 
-let { x } = myObj;
+// Demandez le prénom de l'utilisateur
+const prenom
 
-assertEqual(x, 1);
+// Afficher à l'utilisateur votre message final
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(`${message}${prenom}`, 'Bienvenue Julie');

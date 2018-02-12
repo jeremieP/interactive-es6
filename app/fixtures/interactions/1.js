@@ -1,9 +1,9 @@
-let myObj = {
-  x: 0,
-  y: 1
-}
 
-let { x, y } = myObj;
+const prenom = '???'
+const message = 'Bonjour, je suis '
 
-assertEqual(x, 1);
-assertEqual(y, 2);
+// Afficher à l'utilisateur votre message final
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(`${message}${prenom}`, 'Bonjour, je suis Adrianna');
