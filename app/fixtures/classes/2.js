@@ -1,15 +1,11 @@
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
+// Créez votre classe
 
-class Jack extends Person {
-  fullName() {
-    return this.name + ' ???';
-  }
-}
 
-const jack = new Jack('Jack');
 
-assertEqual(jack.fullName(), 'Jack Franklin');
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+const wii = new Console('Nintendo', 'Switch', 2017);
+
+assertEqual(wii.marque, 'Nintendo');
+assertEqual(wii.modele, 'Switch');
+assertEqual(wii.date, 2017);
+assertEqual(wii.getInfos(), 'La console Nintendo Switch est sortie en 2017')

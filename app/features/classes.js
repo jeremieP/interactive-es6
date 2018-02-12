@@ -2,31 +2,25 @@ import React from 'react';
 export default [
   {
     index: 1,
-    title: 'The class syntax',
+    title: 'La classe Console',
     content: (
       <div>
-        <p>The syntax for defining classes is pretty similar to other languages.</p>
-        <p>The <code>constructor</code> method is called when we create a new instance.</p>
-        <p>Note the shorter syntax for defining methods too.</p>
+        <p>Créez une classe <code>Console</code>, respectant les contraintes suivantes :</p>
+        <p>
+          <ul>
+            <li>Elle aura trois propriétés : <code>marque</code>, <date>model</date> et <code>date</code> qui contiendront la marque, le modèle et l'année de sortie de la console. Ces informations seront fournies lors de la construction de l'objet.</li>
+          </ul>
+        </p>
       </div>
     )
   },
   {
     index: 2,
-    title: 'Extending classes',
+    title: 'Et si on ajoutait des méthodes ?',
     content: (
       <div>
-        <p>Classes can extend (or inherit from) others, although you should do this with caution.</p>
+        <p>Ajoutons une méthode <code>getInfos()</code> à notre classe Console, qui retournera la phrase suivante : <code>La console [MARQUE] [MODELE] est sortie en [DATE]</code></p>
       </div>
     ),
-  },
-  {
-    index: 3,
-    title: 'Classes are objects',
-    content: (
-      <div>
-        <p>Classes are just regular JavaScript objects</p>
-      </div>
-    )
   }
 ]
