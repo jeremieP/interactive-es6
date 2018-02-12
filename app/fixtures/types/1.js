@@ -1,8 +1,9 @@
-const addTwo = (x) => x + 2;
+// Créez vos variables
 
-const addThree = (x) => {
-  return x + 3;
-}
 
-assertEqual(addTwo(1), 4);
-assertEqual(addThree(3), 5);
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+const t1 = typeof prenom
+const t2 = typeof bro_and_sis
+assertEqual(t1, 'string')
+assertEqual(t2, 'number')

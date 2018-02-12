@@ -1,39 +1,53 @@
 import React from 'react';
+
 export default [
   {
     index: 1,
-    title: 'The problem with variables',
+    title: '1/ Créez des variables modifiabes',
     content: (
       <div>
-        <p>The problem with <code>var</code> is that it is scoped to functions, so they leak out of things like conditionals. This can create confusing code, as demonstrated below.</p>
+        <p>Créez ici deux variables <code>prenom</code> et <code>bro_and_sis</code>, contenant votre prénom, et le nombre de frères et soeurs que vous avez.</p>
+        <p>ATTENTION : <code>prenom</code> doit être une chaîne de caractères, et <code>bro_and_sis</code> doit être un nombre</p>
+        <p>Ces variables doivent pouvoir être modifiées...</p>
       </div>
     )
   },
   {
     index: 2,
-    title: 'Let doesn\'t have this problem',
+    title: '2/ Créez des variables non modifiabes',
     content: (
       <div>
-        <p>Notice that when you run this code you get an error. Why is that? Don't worry about fixing the error, but notice how the behaviour of <code>let</code> differs from that of <code>var</code>.</p>
+        <p>Créez ici deux variables <code>prenom</code> et <code>bro_and_sis</code>, contenant votre prénom, et le nombre de frères et soeurs que vous avez.</p>
+        <p>ATTENTION : <code>prenom</code> doit être une chaîne de caractères, et <code>bro_and_sis</code> doit être un nombre</p>
+        <p>Ces variables NE doivent PAS pouvoir être modifiées...</p>
       </div>
     ),
   },
   {
     index: 3,
-    title: 'We can also create constants',
+    title: '3/ Créez un tableau',
     content: (
       <div>
-        <p>Notice that when you run this code you get an error. Why is that? Don't worry about fixing the error, but notice how we are not allowed to modify a constant.</p>
+        <p>Créez ici un tableau, nommé <code>simplon</code> contenant 3 prénoms de vos collègues de la promo Simplon.</p>
       </div>
     )
   },
   {
     index: 4,
-    title: 'We can edit certain constants',
-    hasResults: true,
+    title: '4/ Créez un objet',
     content: (
       <div>
-        <p>When a constant is an object, you can modify its values, but you can't redefine the entire object.</p>
+        <p>Créez un objet nommé <code>me</code>, contenant 2 clés, <code>prenom</code> et <code>age</code>, et ayant comme valeur votre prénom et votre âge.</p>
+      </div>
+    )
+  },
+  {
+    index: 5,
+    title: "5/ Créez un tableau d'objets",
+    content: (
+      <div>
+        <p>Créez ici un tableau, nommé <code>family</code> contenant 2 objets.</p>
+        <p>Chacun des objets sera un équivalent de l'objet <code>me</code> précédamment créé</p>
       </div>
     )
   }

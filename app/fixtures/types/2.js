@@ -1,8 +1,9 @@
-let numbers = [1, 2, 3, 4];
+// Créez vos variables
 
-// replace the function with an arrow function
-let doubled = numbers.map(function(x) {
-  return x * 2;
-});
 
-assertEqual(doubled.join(', '), '1, 4, 6, 7');
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+const t1 = typeof prenom
+const t2 = typeof bro_and_sis
+assertEqual(t1, 'string')
+assertEqual(t2, 'number')

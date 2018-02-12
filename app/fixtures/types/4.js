@@ -3,4 +3,5 @@
 
 
 // NE PAS TOUCHER APRES CETTE LIGNE :)
-assertEqual(simplon.length, 3)
+const t1 = typeof me
+assertEqual(t1, 'object')
