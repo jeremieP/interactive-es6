@@ -2,30 +2,32 @@ import React from 'react';
 export default [
   {
     index: 1,
-    title: 'Defining functions in objects',
+    title: 'Je veux multiplier 2 nombres !',
     content: (
       <div>
-        <p>We've got a shorter way to define functions. Update the object below to use it and call the new method.</p>
+        <p>Créez une fonction <code>multip</code>, qui prend 2 paramètres <code>a</code> et <code>b</code> et retourne le résultat de la multiplication de ces 2 chiffres.</p>
       </div>
     )
   },
   {
     index: 2,
-    title: 'Default function arguments',
+    title: 'Arguments par défaut !',
     content: (
       <div>
-        <p>If a function isn't given a value, you can tell it what it should use.</p>
+        <p>Créez une fonction <code>divis</code>, qui prend 2 paramètres <code>a</code> et <code>b</code> et retourne le résultat de la division de ces 2 chiffres.</p>
+        <p>Par défaut, <code>b</code> aura pour valeur <code>1</code></p>
+        <p>ATTENTION : la division par 0 étant interdite, vous devez pensez au contrôle nécessaire. Si <code>b = 0</code> alors vous forcerez sa valeur à <code>1</code></p>
       </div>
     ),
   },
   {
     index: 3,
-    title: 'Unlimited arguments',
+    title: 'BONUS : Une addition illimitée ?',
     content: (
       <div>
-        <p>Sometimes you just want to take any number of arguments and get them as an array.</p>
-        <p>The spread operator (<code>...</code>) lets us do this.</p>
-        <p>This is much nicer than working with the inbuilt <code>arguments</code> object.</p>
+        <p>Je voudrais additionner un ensemble de chiffres, et retourner le total. Mais je ne sais pas combien de chiffres je vais vouloir additionner.</p>
+        <p>Créez une fonction <code>ajout</code> qui répond à ce problème</p>
+        <p>L'opérateur "spread" (<code>...</code>) peut vous aider : <a href="https://msdn.microsoft.com/fr-fr/library/dn919259(v=vs.94).aspx" target="_blank">Plus d'infos</a></p>
       </div>
     )
   }

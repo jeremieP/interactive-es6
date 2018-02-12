@@ -1,5 +1,8 @@
-const addTwo = function(x = 1) {
-  return 2 + x;
-}
+// Créez votre fonction
 
-assertEqual(addTwo(), 4);
+
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(divis(2, 2), 1)
+assertEqual(divis(10), 10)
+assertEqual(divis(10, 0), 10)

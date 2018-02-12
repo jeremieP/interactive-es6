@@ -1,12 +1,8 @@
-const sumNumbers = function(...args) {
-  let total = 0;
+// Créez votre fonction
 
-  // BONUS: could you rewrite this using a reduce?
-  args.forEach(function(x) {
-    total = total + x;
-  });
 
-  return total;
-}
 
-assertEqual(sumNumbers(1, 2, 4), 6);
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(ajout(1, 2, 4), 7)
+assertEqual(ajout(10, 20), 30)
+assertEqual(ajout(1, 2, 5, 10), 18)

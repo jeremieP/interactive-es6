@@ -1,12 +1,7 @@
-const obj = {
-  hello() {
-    return 'hello';
-  },
+// Créez votre fonction
 
-  // how verbose...
-  hey: function() {
-    return 'hey'
-  }
-}
 
-assertEqual(obj.hello(), 'hey');
+
+// NE PAS TOUCHER APRES CETTE LIGNE :)
+assertEqual(multip(2, 2), 4)
+assertEqual(multip(10, 10), 100)
