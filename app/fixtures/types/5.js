@@ -3,8 +3,8 @@
 
 
 // NE PAS TOUCHER APRES CETTE LIGNE :)
-assertEqual(simplon.length, 2)
-const t1 = typeof simplon[0]
+assertEqual(family.length, 2)
+const t1 = typeof family[0]
 assertEqual(t1, 'object')
-const t2 = typeof simplon[1]
+const t2 = typeof family[1]
 assertEqual(t2, 'object')
